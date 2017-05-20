@@ -1,4 +1,4 @@
-html{
+html {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -6,7 +6,8 @@ html{
   opacity: 0.9;
   text-align: center;
 }
-header{
+
+header {
   display: flex;
   position: fixed;
   flex-grow: 1;
@@ -18,20 +19,50 @@ header{
   width: 100%;
   top: 0;
   align-items: center;
-
 }
+
 header img {
   height: 50px;
   padding-left: 10px;
 }
-nav{
+
+nav {
   display: inline-block;
   text-align: right;
   flex-grow: 1;
-
 }
-nav a{
+
+nav a {
   display: inline-block;
   padding: 20px 10px;
   color: seashell;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+#about-us {
+  background-image: url("../images/img-mission-background.jpg");
+  padding-top: 70px;
+  height: 700px;
+
+}
+.flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mission {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  /*  display: block;
+    background-color: black;
+    align-items: center;
+    */
 }
